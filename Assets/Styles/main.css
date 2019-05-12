@@ -19,8 +19,8 @@ section, nav {
 /*change the background color */
 
 html {
-	background-color: rgb(199,101,102); /*R: 199 G: 101 B: 102 */
-	color: white;
+	background-color: black;
+	color:black;
 }
 
 
@@ -39,9 +39,8 @@ body * {
   padding: 0px;
   text-decoration: none;
   vertical-align: baseline;
-  background-color: gold;
   background: url("../Images/background.jpg");
-  color: white;
+  color:rgb (19, 139, 244);
 }
 
 /* h1, h2, p */
