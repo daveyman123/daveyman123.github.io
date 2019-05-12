@@ -14,7 +14,9 @@ section, nav {
 	
 }
 
-
+ul {
+color: white;
+}
 
 /*change the background color */
 
@@ -39,7 +41,7 @@ body * {
   padding: 0px;
   text-decoration: none;
   vertical-align: baseline;
-  background: url("../Images/background.jpg");
+  
   color:rgb (19, 139, 244);
 }
 
@@ -133,10 +135,12 @@ nav li a:hover {
   font-size: 14px;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: white;
 }
 
 #main ul li {
   margin-top: 15px;
+  color: white;
 }
 
 /* footer */
