@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Rescue Reptile
+		Author: Shema Ahemed, Sarah Hayman, David Graff
+		Date: 4/20/2019
+
+		Filename: template.htm
+		Supporting files:   *fill these in later*
+
+	-->
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Contact Us</title>
+
+		<link href="Assets\Styles\main.css" rel="stylesheet" type="text/css" />
+		<link href="Assets\Styles\fstyles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<header>
+      <div id = "logo">
+			<img src="Assets\Images\banner.jpg" alt="Programming Club Banner Image"/>
+		</div>
+			<nav class="top-left">
+			<ul>
+			<li><a  href="index.htm">Home</a></li>
+			<li><a  href="gallery.htm">Gallery</a></li>
+			<li><a href="AboutUs.htm">About Us</a></li>
+			<li><a href="events.htm">Upcoming Events</a></li>
+			<li><a class="active" href="ContactUs.htm">Contact Us</a></li>
+			</ul>
+			</nav>
+
+			</header>
+
+
+
+	<section id="main">
+		<h1>Contact Us</h1>
+		<form action="formResult.htm">
+	<fieldset id="contactFields">
+
+		<label for="fName">First Name</label>
+		<input type="text" id="fName" name="fName" required="required" />
+
+		<label for="lName">Last Name</label>
+		<input type="text" id="lName" name="lName" required="required" />
+
+		<label for="phone">Phone</label>
+		<input type="tel" id="phone" name="phone" placeholder="(nnn) nnn-nnnn"
+					 required="required"
+					 pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" placeholder="someone@example.com"
+					 required="required"
+					 pattern="^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$"/>
+
+		<label>Comments</label>
+		<textarea id="feedback" name="feeback"></textarea>
+	</fieldset>
+
+	<input type="checkbox" id="monthlyletter" name="monthlyletter">
+	<label style="color:powderblue;" for="monthlyletter">Please send me monthly newsletters.</label>
+
+	<input type="submit" value="Send" />
+	<input type="reset" value="Reset" />
+</form>
+		<br />
+		<br />
+	</section>
+
+		<footer>
+			<address>
+				MC - Programming Club &#183;
+				11333 Big Bend Rd  &#183;
+				St. Louis, MO 63122 &#183;
+				314-984-7531 &#183;
+				jmercer@my.stlcc.edu
+			</address>
+		</footer>
+
+	</body>
+
+
+
+
+
+
+
+
+
+</html>

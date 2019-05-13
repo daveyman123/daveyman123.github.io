@@ -1,0 +1,38 @@
+/*
+	
+
+	Author: Shema Ahemed, David Graff, Sarah Hayman
+	Date: 5/8/2019
+	Filename:  sstyle.css
+	Supporting Files:
+
+*/
+
+aside {
+	display: block;
+	width: 400px;
+	float: right;
+	background-color: ivory;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 5px 0px 20px 20px;
+        color: black;
+}
+
+aside img {
+	float: right;
+	margin: 5px;
+
+}
+
+aside {
+	height: 250px;
+	overflow: auto;
+}
+aside p {
+color: black;
+}
+
+aside h2 {
+color: black;
+}
